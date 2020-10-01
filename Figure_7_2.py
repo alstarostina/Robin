@@ -20,7 +20,7 @@ nodes = np.linspace(0, L, length) #set the nodes itself
 #SET UP VALUES OF BETA
 number_of_tests = 50
 max_beta = 2
-min_beta = 0
+min_beta = 0.01
 betas = np.arange(number_of_tests) * (1 / (number_of_tests - 1)) * (max_beta - min_beta) + min_beta #gives back an array of betas
 
 #reserve the arrays to store the results
